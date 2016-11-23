@@ -1,0 +1,11 @@
+services:
+    kay_smiley.smiley:
+        class: Kay\SmileyBundle\Services\Smiley
+        arguments:  [@templating.helper.assets]
+    kay_smiley.twig_extension:
+        class: Kay\SmileyBundle\Services\AppExtension
+        public: false
+        tags:
+            - { name: twig.extension }
+    twig.extension.actions:
+        class: Kay\SmileyBundle\Twig\NullExtension

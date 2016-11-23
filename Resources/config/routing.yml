@@ -1,0 +1,6 @@
+kay_smiley_get_json_list_smiley:
+    path:     /get-json-list-smiley
+    methods: [GET]
+    options:
+        expose: true
+    defaults: { _controller: KaySmileyBundle:Smiley:getSmileyListJson }
