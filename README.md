@@ -45,4 +45,4 @@ class AppKernel extends Kernel
 Step 3: Usage
 -------------------------
 
-TODO
+Read the full documentation of SmileyBundle [In the wiki](https://github.com/kayzore/KaySmileyBundle/wiki)
