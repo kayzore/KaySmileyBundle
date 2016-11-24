@@ -4,6 +4,7 @@ services:
         arguments:  [@templating.helper.assets]
     kay_smiley.twig_extension:
         class: Kay\SmileyBundle\Services\AppExtension
+        arguments:  [@kay_smiley.smiley]
         public: false
         tags:
             - { name: twig.extension }
